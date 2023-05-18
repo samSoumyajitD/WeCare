@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Lusitana&family=Montserrat:wght@300;400;500;600&family=Mulish:wght@300;400;500;600;700&display=swap');
+html {
+  height: 100%;
+  
+}
+body {
+  
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Mulish', sans-serif;
+
+  
+}
+
+
+
+
+
+
+
+
+.slider {
+  position: relative;
+  width: 100%;
+  height: 500vw;
+  max-height: 420px;
+  overflow: hidden;
+  padding: 0 auto;
+  
+}
+
+.slide {
+ 
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.slide.active {
+  
+  opacity: 1;
+  z-index: 100;
+}
+
+.slide img {
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+  border-radius: 0 150px 0 150px;
+  width: 100%;
+  height: 55vh;
+  
+  object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+.heading{
+  z-index: 500;
+  padding-top: 10vw;
+  padding-left: 5vw;
+  color: #f8f8f8;
+  position: absolute;
+  
+}
+
+
+
+.text-container {
+  width: 100%;
+  padding:auto ;
+  text-align: center;
+  font-family: 'Lusitana', serif;
+}
+
+.text {
+  padding: 0;
+  font-size: 1.5rem;
+  color: #000000;
+}
+
+
+
+/*button css8*/
+.Buton{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bn49 {
+  
+  border: 0;
+  text-align: center;
+  display: inline-block;
+  padding: 14px;
+  width: 150px;
+  margin: 7px;
+  color: #ffffff;
+  background-color: #36a2eb;
+  border-radius: 8px;
+  font-family: "proxima-nova-soft", sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  transition: box-shadow 200ms ease-out;
+}
+
+
+
+
+
+
+
